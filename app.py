@@ -38,7 +38,6 @@ dados = dados[dados['job'] == job_filter]
 # near real-time / live feed simulation 
 while True:
 # for seconds in range(200):
-
     dados['age_new'] = dados['age'] * np.random.choice(range(1,5))
     dados['balance_new'] = dados['balance'] * np.random.choice(range(1,5))
 
